@@ -577,6 +577,10 @@
 	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
 	</data>
 	<key>Bell</key>
+	<true/>
+	<key>BellBadge</key>
+	<false/>
+	<key>BellBounce</key>
 	<false/>
 	<key>CommandString</key>
 	<string></string>
@@ -624,13 +628,19 @@
 	AAAZAAAAAAAAAAAAAAAAAAAA2Q==
 	</data>
 	<key>ShouldLimitScrollback</key>
-	<integer>0</integer>
+	<integer>1</integer>
+	<key>ShouldRestoreContent</key>
+	<true/>
+	<key>ShowActiveProcessArgumentsInTitle</key>
+	<true/>
 	<key>ShowActiveProcessInTitle</key>
 	<false/>
 	<key>ShowCommandKeyInTitle</key>
 	<false/>
 	<key>ShowDimensionsInTitle</key>
 	<false/>
+	<key>ShowRepresentedURLPathInTitle</key>
+	<true/>
 	<key>ShowShellCommandInTitle</key>
 	<false/>
 	<key>ShowTTYNameInTitle</key>
@@ -659,6 +669,8 @@
 	<true/>
 	<key>UseBrightBold</key>
 	<true/>
+	<key>VisualBellOnlyWhenMuted</key>
+	<false/>
 	<key>blackColour</key>
 	<data>
 	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMBhARm
@@ -850,11 +862,13 @@
 	ZmZmAYPZ2Ng+g8HAwD4Bhg==
 	</data>
 	<key>rowCount</key>
-	<integer>23</integer>
+	<integer>24</integer>
 	<key>shellExitAction</key>
 	<integer>0</integer>
 	<key>type</key>
 	<string>Window Settings</string>
+	<key>useOptionAsMetaKey</key>
+	<true/>
 	<key>whiteColour</key>
 	<data>
 	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMBhARm
